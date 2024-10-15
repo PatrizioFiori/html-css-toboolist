@@ -6,3 +6,35 @@
     box-sizing: border-box;
   }
 
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* Lavorazione sull'header */
+
+
+header{
+  background-color: lightpink;
+  margin: 0;
+}
+
+header .conteiner{
+padding: 10px 20px 5px 20px;
+}
+
+header span{
+  vertical-align:top;
+  font-size: 45px;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo-a{
+width: 50px;
+height: auto;
+}
+
+
+/* Lavorazione sull'header */
