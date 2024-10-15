@@ -38,7 +38,7 @@ height: auto;
 }
 
 
-/* Lavorazione sull'header */
+/* Lavorazione sul main */
 
 main .conteiner {
 margin: 50px 100px;
@@ -46,6 +46,7 @@ padding: 20px 0px 20px 0px;
 background-color: white;
 }
 
+/* i due button superiori */
 .taskbutton {
   background-color:deepskyblue;
   color: white;
@@ -53,7 +54,7 @@ background-color: white;
   padding: 10px 15px;
   border-radius: 10px;
   border-color: lightgrey;
-  margin: 15px 5px 25px 45px;
+  margin: 8px 5px 25px 45px;
 }
 
 .sectionbutton {
@@ -64,6 +65,7 @@ background-color: white;
   border-color: lightgrey;
 }
 
+/* Lavorazione sui tre campi: new task, today, upcoming*/
 main h2{
   background-color: transparent;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -79,14 +81,68 @@ main h2::before{
   display: inline-block;
 }
 
+/* Lavorazione sull'elenco*/
 main ul{
-  margin: 10px 5px 35px 45px;
+  margin: 10px 5px 35px 25px;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 main li{
   margin: 0px 0px 20px 20px;
+}
+
+/* I button check e cross*/
+main li .checkbutton{
+  background-color: transparent;
+  color: green;
+  border-color: green;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+}
+
+main li .crossbutton {
+  background-color: transparent;
+  color: red;
+  border-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+}
+
+/* Lavorazione sui tag alla fine di ogni riga dell'elenco */
+main li span {
+  background-color: gray;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 15px;
+  margin: 2px;
+  font-size: 15px;
+}
+
+.tageditoriale{
+  background-color: lightskyblue;
+}
+
+.taggoals {
+  background-color: blueviolet;
+}
+
+.tagrecruiting{
+  background-color: lightseagreen;
+}
+
+.tagmobile{
+  background-color: darkorange;
+}
+
+.tagwebsite{
+  background-color:violet
+}
+
+.tagsales{
+  background-color: green;
 }
 
 /*footer non visualizzabile*/
