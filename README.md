@@ -8,10 +8,3 @@ _**Obiettivo**: Riprodurre l'immagine reference "Toboolist"_
 4) Creare cartella CSS 
 5) bug fix e riordinamento del codice  
 <hr>
-
-### Soluzioni adottate in fase di sviluppo
-* Wip
-* Wip
-
-<hr>
-
