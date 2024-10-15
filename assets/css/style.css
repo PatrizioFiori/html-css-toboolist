@@ -9,6 +9,7 @@
 body{
     background-color: whitesmoke;
     color: black;
+    font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
@@ -16,7 +17,7 @@ body{
 
 
 header{
-  background-color: lightpink;
+  background-color: white;
   margin: 0;
 }
 
@@ -40,7 +41,8 @@ height: auto;
 /* Lavorazione sull'header */
 
 main .conteiner {
-margin: 100px 100px;
+margin: 50px 100px;
+padding: 20px 0px 20px 0px;
 background-color: white;
 }
 
@@ -50,7 +52,7 @@ background-color: white;
   font-weight: bold;
   padding: 10px 15px;
   border-radius: 10px;
-  border-color: whitesmoke;
+  border-color: lightgrey;
   margin: 15px 5px 25px 45px;
 }
 
@@ -59,5 +61,35 @@ background-color: white;
   color: lightgrey;
   padding: 10px 15px;
   border-radius: 10px;
-  border-color: whitesmoke;
+  border-color: lightgrey;
+}
+
+main h2{
+  background-color: transparent;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  margin: 15px 5px 0px 45px;
+}
+
+main h2::before{
+  content: "\25BC";
+  margin-right: 5px;
+  font-size: 15px;
+  transform: scale(1.2, 0.6);
+  display: inline-block;
+}
+
+main ul{
+  margin: 10px 5px 35px 45px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+main li{
+  margin: 0px 0px 20px 20px;
+}
+
+/*footer non visualizzabile*/
+footer {
+  display: none;
 }
